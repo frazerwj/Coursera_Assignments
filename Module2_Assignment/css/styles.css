@@ -1,1 +1,127 @@
+/********** Base styles **********/
 
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica; 
+}
+
+    body {
+        display: block;
+    }
+
+    .row{
+        width: 100%;
+    }
+
+    h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    }
+    
+    #border{
+    background-color: #C0C0C0;
+    border: 1px solid black;
+    padding:0px 0px 10px 10px;
+    margin: 10px;
+}
+    }
+
+    p {
+    display: block;
+    
+}
+#P1{
+    background-color: #FF7F8A;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+    width: 35%;
+    padding:5px;
+    left: 65%;
+    position:relative;
+}
+
+#P2{
+    background-color: #CD5C5C;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-top: auto;
+    padding:5px;
+    text-align: center;
+    color: white;
+    width: 35%;
+    position: relative;
+    left: 65%;
+}
+#P3{
+    margin-right: auto;
+    margin-top: auto;
+    padding:5px;
+    background-color: #FFE97F;
+    border: 1px solid black;
+    text-align: center;
+    width: 35%;
+    position: relative;
+    left: 65%;
+      }
+
+
+      /*****for large device****/
+@media (min-width: 992px) {
+    .col-lg-3 {
+        float: left;
+        width: 31%;
+    }
+}
+   /*****  medium devices   *****/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 47%
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .col-md-4 {
+    width: 95%;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .col-md-6, .col-md-4 {
+    float: left;
+     }
+}
+   /***** small devices  *****/
+@media (max-width: 767px) {
+    .col-sm-12 {
+    float: left;
+    width: 95%;
+    }
+}
+
+   /*****  medium devices   *****/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 45%
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .col-md-4 {
+    width: 92%;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .col-md-6, .col-md-4 {
+    float: left;
+     }
+}
+   /***** small devices  *****/
+@media (max-width: 767px) {
+    .col-sm-12 {
+    float: left;
+    width: 95%;
+    }
+}
